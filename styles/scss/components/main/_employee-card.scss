@@ -1,0 +1,45 @@
+.employee-card {
+  @include flex(column, nowrap, space-evenly, center);
+  border-radius: 10px;
+  background: white;
+  padding: 0.5rem;
+  border: 1px solid $secondary;
+  min-height: 150px;
+  width: 100%;
+  font-size: 0.8rem;
+  box-shadow: 0 4px 4px rgba(black, 0.015);
+  cursor: pointer;
+  transition: 0.2s;
+  transition: transform 0.2s, background 1s ease, color 1s ease;
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(black, 0.1);
+  }
+  hr {
+    border: 1px solid $secondary;
+    width: 90%;
+    margin: 0 auto;
+    transition: 1s ease;
+  }
+
+  .photo-and-contact-info {
+    @include flex(row, nowrap, flex-start, center);
+    margin: 0 2rem;
+    width: 100%;
+    .photo-div {
+      margin: 0 1rem;
+      .employee-photo {
+        width: 45px;
+      }
+    }
+    .contact-info-div {
+      a {
+        color: lighten($primary, 5%);
+        text-decoration: none;
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+}

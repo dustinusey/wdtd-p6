@@ -1,0 +1,22 @@
+header {
+  @include size(50px, 100%);
+  display: block;
+  background: $primary;
+  .toggle-div {
+    @include flex(row, nowrap, flex-end, center);
+    padding: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    i {
+      margin-right: 1rem;
+      color: white;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: 0.2s;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

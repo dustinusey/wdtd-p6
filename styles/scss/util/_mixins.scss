@@ -1,0 +1,45 @@
+@mixin flex($direction, $wrapping, $justification, $align) {
+  @content;
+  display: flex;
+  flex-direction: $direction;
+  flex-wrap: $wrapping;
+  justify-content: $justification;
+  align-items: $align;
+}
+
+@mixin centerFlex() {
+  @content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin absoluteCenter($p: null) {
+  @content;
+  position: absolute;
+  position: $p;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin size($height, $width) {
+  @content;
+  height: $height;
+  width: $width;
+}
+
+@mixin simpleSize($size) {
+  @content;
+  height: $size;
+  width: $size;
+}
+
+@mixin textOverflow($l) {
+  @content;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $l;
+}

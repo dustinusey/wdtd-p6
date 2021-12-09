@@ -19,6 +19,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/women/25.jpg",
         medium: "https://randomuser.me/api/portraits/med/women/25.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/women/25.jpg",
+        avatar: "./assets/user1.png"
       },
     },
     {
@@ -36,6 +37,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/women/88.jpg",
         medium: "https://randomuser.me/api/portraits/med/women/88.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/women/88.jpg",
+        avatar: "./assets/user2.png"
       },
     },
     {
@@ -53,6 +55,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/23.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/23.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/23.jpg",
+        avatar: "./assets/user3.png"
       },
     },
     {
@@ -70,6 +73,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/50.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/50.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/50.jpg",
+        avatar: "./assets/user4.png"
       },
     },
     {
@@ -87,6 +91,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/women/21.jpg",
         medium: "https://randomuser.me/api/portraits/med/women/21.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/women/21.jpg",
+        avatar: "./assets/user5.png"
       },
     },
     {
@@ -104,6 +109,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/56.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/56.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/56.jpg",
+        avatar: "./assets/user6.png"
       },
     },
     {
@@ -121,6 +127,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/6.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/6.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/6.jpg",
+        avatar: "./assets/user7.png"
       },
     },
     {
@@ -138,6 +145,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/women/22.jpg",
         medium: "https://randomuser.me/api/portraits/med/women/22.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/women/22.jpg",
+        avatar: "./assets/user8.png"
       },
     },
     {
@@ -155,6 +163,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/99.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/99.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/99.jpg",
+        avatar: "./assets/user9.png"
       },
     },
     {
@@ -172,6 +181,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/women/79.jpg",
         medium: "https://randomuser.me/api/portraits/med/women/79.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/women/79.jpg",
+        avatar: "./assets/user10.png"
       },
     },
     {
@@ -189,6 +199,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/53.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/53.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/53.jpg",
+        avatar: "./assets/user11.png"
       },
     },
     {
@@ -206,6 +217,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/59.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/59.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/59.jpg",
+        avatar: "./assets/user12.png"
       },
     },
     {
@@ -223,6 +235,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/68.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/68.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/68.jpg",
+        avatar: "./assets/user13.png"
       },
     },
     {
@@ -240,6 +253,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/women/54.jpg",
         medium: "https://randomuser.me/api/portraits/med/women/54.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/women/54.jpg",
+        avatar: "./assets/user14.png"
       },
     },
     {
@@ -257,6 +271,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/30.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/30.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/30.jpg",
+        avatar: "./assets/user15.png"
       },
     },
     {
@@ -274,6 +289,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/16.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/16.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/16.jpg",
+        avatar: "./assets/user16.png"
       },
     },
     {
@@ -291,6 +307,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/women/6.jpg",
         medium: "https://randomuser.me/api/portraits/med/women/6.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/women/6.jpg",
+        avatar: "./assets/user17.png"
       },
     },
     {
@@ -308,6 +325,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/49.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/49.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/49.jpg",
+        avatar: "./assets/user18.png"
       },
     },
     {
@@ -325,6 +343,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/women/72.jpg",
         medium: "https://randomuser.me/api/portraits/med/women/72.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/women/72.jpg",
+        avatar: "./assets/user19.png"
       },
     },
     {
@@ -342,6 +361,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/women/59.jpg",
         medium: "https://randomuser.me/api/portraits/med/women/59.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/women/59.jpg",
+        avatar: "./assets/user20.png"
       },
     },
     {
@@ -359,6 +379,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/67.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/67.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/67.jpg",
+        avatar: "./assets/user21.png"
       },
     },
     {
@@ -376,6 +397,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/11.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/11.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/11.jpg",
+        avatar: "./assets/user22.png"
       },
     },
     {
@@ -393,6 +415,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/95.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/95.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/95.jpg",
+        avatar: "./assets/user23.png"
       },
     },
     {
@@ -410,6 +433,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/women/62.jpg",
         medium: "https://randomuser.me/api/portraits/med/women/62.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/women/62.jpg",
+        avatar: "./assets/user24.png"
       },
     },
     {
@@ -427,6 +451,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/women/8.jpg",
         medium: "https://randomuser.me/api/portraits/med/women/8.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/women/8.jpg",
+        avatar: "./assets/user25.png"
       },
     },
     {
@@ -444,6 +469,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/women/36.jpg",
         medium: "https://randomuser.me/api/portraits/med/women/36.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/women/36.jpg",
+        avatar: "./assets/user26.png"
       },
     },
     {
@@ -461,6 +487,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/5.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/5.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/5.jpg",
+        avatar: "./assets/user27.png"
       },
     },
     {
@@ -478,6 +505,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/women/9.jpg",
         medium: "https://randomuser.me/api/portraits/med/women/9.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/women/9.jpg",
+        avatar: "./assets/user28.png"
       },
     },
     {
@@ -495,6 +523,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/women/37.jpg",
         medium: "https://randomuser.me/api/portraits/med/women/37.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/women/37.jpg",
+        avatar: "./assets/user29.png"
       },
     },
     {
@@ -512,6 +541,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/17.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/17.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/17.jpg",
+        avatar: "./assets/user30.png"
       },
     },
     {
@@ -529,6 +559,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/43.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/43.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/43.jpg",
+        avatar: "./assets/user31.png"
       },
     },
     {
@@ -546,6 +577,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/65.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/65.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/65.jpg",
+        avatar: "./assets/user32.png"
       },
     },
     {
@@ -563,6 +595,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/51.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/51.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/51.jpg",
+        avatar: "./assets/user33.png"
       },
     },
     {
@@ -580,6 +613,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/47.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/47.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/47.jpg",
+        avatar: "./assets/user34.png"
       },
     },
     {
@@ -597,6 +631,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/16.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/16.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/16.jpg",
+        avatar: "./assets/user35.png"
       },
     },
     {
@@ -614,6 +649,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/8.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/8.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/8.jpg",
+        avatar: "./assets/user36.png"
       },
     },
     {
@@ -631,6 +667,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/4.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/4.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/4.jpg",
+        avatar: "./assets/user37.png"
       },
     },
     {
@@ -648,6 +685,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/women/4.jpg",
         medium: "https://randomuser.me/api/portraits/med/women/4.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/women/4.jpg",
+        avatar: "./assets/user38.png"
       },
     },
     {
@@ -665,6 +703,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/89.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/89.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/89.jpg",
+        avatar: "./assets/user39.png"
       },
     },
     {
@@ -682,6 +721,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/22.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/22.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/22.jpg",
+        avatar: "./assets/user40.png"
       },
     },
     {
@@ -699,6 +739,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/women/16.jpg",
         medium: "https://randomuser.me/api/portraits/med/women/16.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/women/16.jpg",
+        avatar: "./assets/user41.png"
       },
     },
     {
@@ -716,9 +757,7 @@ const data = [
         large: "https://randomuser.me/api/portraits/men/48.jpg",
         medium: "https://randomuser.me/api/portraits/med/men/48.jpg",
         thumbnail: "https://randomuser.me/api/portraits/thumb/men/48.jpg",
+        avatar: "./assets/user42.png"
       },
     },
   ];
-  
-
-  console.log(data.length);

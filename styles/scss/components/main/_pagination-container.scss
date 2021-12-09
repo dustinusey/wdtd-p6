@@ -1,0 +1,27 @@
+.pagination-container {
+  margin-top: auto;
+  ul {
+    @include flex(row, nowrap, center, center);
+    li {
+      @include centerFlex();
+      @include simpleSize(35px);
+      margin: 0 0.25rem;
+      background: white;
+      border: 1px solid $secondary;
+      border-radius: 3px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: 0.3s;
+      p {
+        pointer-events: none;
+      }
+      &.active {
+        pointer-events: none;
+        border-color: $primary !important;
+        background: $primary !important;
+        color: white;
+        box-shadow: 0 4px 4px rgba(black, 0.1);
+      }
+    }
+  }
+}

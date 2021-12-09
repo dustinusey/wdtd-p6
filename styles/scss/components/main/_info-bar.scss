@@ -1,0 +1,40 @@
+.info-bar {
+  padding: 1rem;
+  @include flex(column, nowrap, center, center);
+  @media (min-width: 768px) {
+    @include flex(row, nowrap, space-between, center);
+  }
+  h1 {
+    font-weight: 300;
+  }
+  .search-div {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    margin: 1rem auto;
+    @media (min-width: 768px) {
+      margin: 0;
+    }
+    input {
+      padding: 0.66rem;
+      border: 1px solid $secondary;
+      border-radius: 5px;
+      outline: none;
+      transition: border 0.3s, background 1s ease;
+      color: $primary-text;
+      width: 100%;
+      &::placeholder {
+        color: #ccc;
+      }
+      &:focus {
+        border-color: $primary;
+      }
+    }
+    i.fa-search {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      color: #ccc;
+    }
+  }
+}
