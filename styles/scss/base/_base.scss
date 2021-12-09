@@ -26,13 +26,22 @@ body {
       .search-div input {
         background: #263545;
         border-color: black;
-        color: $primary;
+        color: white;
+        &:focus {
+          border-color: $primary !important;
+        }
       }
     }
     .employee-card {
       background: #263545;
       border-color: black;
       color: white;
+      .photo-and-contact-info {
+        .photo-div img {
+          background: $primary;
+          padding: 0.25rem;
+        }
+      }
     }
     hr {
       border: 1px solid #1b2831 !important;

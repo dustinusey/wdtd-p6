@@ -31,12 +31,19 @@ body.dark .info-bar h1 {
 body.dark .info-bar .search-div input {
   background: #263545;
   border-color: black;
-  color: #44aaf4;
+  color: white;
+}
+body.dark .info-bar .search-div input:focus {
+  border-color: #44aaf4 !important;
 }
 body.dark .employee-card {
   background: #263545;
   border-color: black;
   color: white;
+}
+body.dark .employee-card .photo-and-contact-info .photo-div img {
+  background: #44aaf4;
+  padding: 0.25rem;
 }
 body.dark hr {
   border: 1px solid #1b2831 !important;
@@ -213,8 +220,12 @@ main {
 .employee-card .photo-and-contact-info .photo-div {
   margin: 0 1rem;
 }
-.employee-card .photo-and-contact-info .photo-div .employee-photo {
+.employee-card .photo-and-contact-info .photo-div img {
   width: 45px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  background: transparent;
+  transition: padding 0.3s ease, background 0.6s ease;
 }
 .employee-card .photo-and-contact-info .contact-info-div a {
   color: #5cb5f5;
