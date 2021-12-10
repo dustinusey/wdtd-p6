@@ -179,6 +179,9 @@ main {
     width: 33%;
   }
 }
+.employee-list ul li.hide {
+  display: none;
+}
 
 .employee-card {
   display: flex;

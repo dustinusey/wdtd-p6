@@ -27,7 +27,7 @@ const toggleTheme = {
 const pagination = {
     items_per_page: 9,
     current_page: 1,
-
+    employees_in_search: [],
     render: {
 
         // creates markup for individual card w data
@@ -127,21 +127,21 @@ const pagination = {
             const cards = document.querySelectorAll('.employee-card');
             const start_index = pagination.current_page * pagination.items_per_page - pagination.items_per_page;
             cards.forEach((card) => {
-                card.parentNode.style.display = 'none';
+                card.parentNode.classList.add('hide');
             });
             if (pagination.items_per_page + start_index > data.length) {
                 for (let i = start_index; i < data.length; i++) {
-                    cards[i].parentNode.style.display = 'flex';
+                    cards[i].parentNode.classList.remove('hide')
                 }
             } else {
             for (let i = start_index; i < pagination.items_per_page + start_index; i++) {
-                cards[i].parentNode.style.display = 'flex';
+                cards[i].parentNode.classList.remove('hide');
             }
         }
         },
-
+        
         search: {
-            render: () => {
+            render_searchbar: () => {
                 const info_bar = document.querySelector('.info-bar');
                 const search_div = document.createElement('div');
                 search_div.classList = 'search-div';
@@ -159,6 +159,7 @@ const pagination = {
                 const search = document.querySelector('.search-div input');
                 const employees = document.querySelectorAll('.contact-info-div p');
                 const cards = document.querySelectorAll('.employee-card');
+
                 search.addEventListener('keyup', e => {
                     let employee_names = [];
                     employees.forEach((name) => {
@@ -166,12 +167,25 @@ const pagination = {
                     });
                     employee_names.forEach((name, index) => {
                         if (!name.includes(e.target.value.toLowerCase())) {
-                            cards[index].parentNode.style.display = 'none';
+                            cards[index].parentNode.classList.add('hide');
                         } else {
-                            cards[index].parentNode.style.display = 'flex';
+                            cards[index].parentNode.classList.remove('hide');
                         }
                     })
+                    
+                    const hidden_card = document.querySelectorAll('.employee-list li.hide');
+                    if (hidden_card.length === data.length) {
+                        pagination.logic.search.no_results("Sorry, no employees match your search.")
+                    }
                 })
+            },
+
+            no_results: (message) => {
+                const employee_list = document.querySelector('.employee-list');
+                const p = document.createElement('p');
+                p.textContent = message;
+                employee_list.appendChild(p);
+
             }
         }
     },
@@ -184,11 +198,10 @@ const pagination = {
         pagination.logic.button_toggling();
         pagination.logic.set_page();
 
-        pagination.logic.search.render();
+        pagination.logic.search.render_searchbar();
         pagination.logic.search.filter();
     }
 }
-
 
 // pagination.ui.render_cards(pagination.current_start_index);
 // pagination.ui.page_numbers();

@@ -15,6 +15,9 @@
       @media (min-width: 1024px) {
         width: 33%;
       }
+      &.hide {
+        display: none;
+      }
     }
   }
 }
