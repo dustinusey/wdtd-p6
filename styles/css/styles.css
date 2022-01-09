@@ -115,6 +115,7 @@ main {
 }
 .info-bar h1 {
   font-weight: 300;
+  text-align: center;
 }
 .info-bar .search-div {
   position: relative;
