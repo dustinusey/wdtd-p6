@@ -23,6 +23,10 @@
       transition: border 0.3s, background 1s ease;
       color: $primary-text;
       width: 100%;
+      &.disabled {
+        opacity: 0.2;
+        pointer-events: none;
+      }
       &::placeholder {
         color: #ccc;
       }

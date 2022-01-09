@@ -146,6 +146,7 @@ const pagination = {
                 const search_div = document.createElement('div');
                 search_div.classList = 'search-div';
                     const input = document.createElement('input');
+                    input.classList = 'disabled';
                     input.setAttribute('placeholder', 'Search for employee by name');
                     const search_icon = document.createElement('i');
                     search_icon.classList = 'fas fa-search';
@@ -157,27 +158,8 @@ const pagination = {
 
             filter: () => {
                 const search = document.querySelector('.search-div input');
-                const employees = document.querySelectorAll('.contact-info-div p');
-                const cards = document.querySelectorAll('.employee-card');
-
-                search.addEventListener('keyup', e => {
-                    let employee_names = [];
-                    employees.forEach((name) => {
-                        employee_names.push(name.textContent.toLowerCase());
-                    });
-                    employee_names.forEach((name, index) => {
-                        if (!name.includes(e.target.value.toLowerCase())) {
-                            cards[index].parentNode.classList.add('hide');
-                        } else {
-                            cards[index].parentNode.classList.remove('hide');
-                        }
-                    })
-                    
-                    const hidden_card = document.querySelectorAll('.employee-list li.hide');
-                    if (hidden_card.length === data.length) {
-                        pagination.logic.search.no_results("Sorry, no employees match your search.")
-                    }
-                })
+                search.addEventListener('keyup', e => {  
+                });
             },
 
             no_results: (message) => {

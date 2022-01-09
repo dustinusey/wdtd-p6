@@ -136,6 +136,10 @@ main {
   color: #656c70;
   width: 100%;
 }
+.info-bar .search-div input.disabled {
+  opacity: 0.2;
+  pointer-events: none;
+}
 .info-bar .search-div input::placeholder {
   color: #ccc;
 }
